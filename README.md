@@ -10,14 +10,6 @@ Before using the Python bindings, you must install the libpostal C library. Make
 ```
 sudo apt-get install curl autoconf automake libtool python-dev pkg-config
 ```
-**On CentOS/RHEL**
-```
-sudo yum install curl autoconf automake libtool python-devel pkgconfig
-```
-**On Mac OSX**
-```
-brew install curl autoconf automake libtool pkg-config
-```
 
 **Installing libpostal**
 
