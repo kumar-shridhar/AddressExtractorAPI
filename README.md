@@ -43,14 +43,16 @@ pip install postal
 Usage
 -----
 
-```python app.py
+```
+python app.py
 ```
 It will open the link at localhost:8081
 Enter query as: localhost:8081/<query here>
 
 Sample
 -----
-```http://0.0.0.0:8081/ Anker Engelunds Vej 1 Bygning 101A, 2800 Kgs. Lyngby, Denmark
+```
+http://0.0.0.0:8081/ Anker Engelunds Vej 1 Bygning 101A, 2800 Kgs. Lyngby, Denmark
 
 Response: [["anker engelunds vej","road"],["1 bygning 101a","house_number"],["2800","postcode"],["kgs. lyngby","city"],["denmark","country"]]
 ```
