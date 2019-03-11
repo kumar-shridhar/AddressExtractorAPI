@@ -29,7 +29,14 @@ To install the Python library, just run:
 
 ```
 pip install postal
+pip install spacy == 2.0.11
 ```
+**Downloading dutch corpus**
+
+```
+python -m spacy download nl
+```
+
 
 
 Usage
